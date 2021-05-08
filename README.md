@@ -9,8 +9,10 @@ observe the characteristics of the data.
 3. Perform RFF transformation on the features in the original data set   
   For SVMLight,I want to use svmlight package to build svm model and solve the problem. Unfortunately, it hard to install the package and i used the code shown below: 
 
-!git clone https://github.com/mblondel/svmlight-loader 
+!git clone https://github.com/mblondel/svmlight-loader
+
 %cd svmlight-loader 
+
 !python setup.py build &amp;&amp; python setup.py install import svmlight 
 
   Actually,you can also find other website(github) or official website to install this package. For some reasons, I failed. In my opinion, it has big relationship with 
